@@ -1,18 +1,56 @@
-#include <Arduino.h>
+/*******************************************************************************
+   Título:      TCC  Tecnico em Eletrotecnica
 
-// put function declarations here:
-int myFunction(int, int);
+   Descrição:   C L P   ---  I H M
+
+   Processador: Esp32
+   
+
+
+   Desenvolvido: MRPRO Tecnologia e Automação
+
+   Autor: Tecnologo. Marcelo Rodrigues     
+   CREA-SP 5070505617
+
+   Data de Inicio: 09/07/2023       Versão:   2023.1.1
+
+   Versão Multi_folhas VS-CODE & freeRTOS
+        
+
+   
+*******************************************************************************/  
+/* ============================================================================  
+                                                              
+                                       _                      
+                                      / \                     
+                                     |oo >                    
+                                     _\=/_                    
+                    ___         #   /  _  \   #               
+                   /<> \         \\//|/.\|\\//                
+                 _|_____|_        \/  \_/  \/                 
+                | | === | |          |\ /|                    
+                |_|  0  |_|          \_ _/                    
+                 ||  0  ||           | | |                    
+                 ||__*__||           | | |                    
+                |* \___/ *|          []|[]                    
+                /=\ /=\ /=\          | | |                    
+________________[_]_[_]_[_]_________/_]_[_\_____________________________________
+*/
+/******************************************************************************/
+
+
+  #include "Config_ESP.h"
+
 
 void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
+
+   void Config_ESP ();
+   
 }
 
+
+/******************************************************************************/
 void loop() {
-  // put your main code here, to run repeatedly:
-}
 
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
+ 
 }
